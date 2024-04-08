@@ -323,21 +323,6 @@
         </div>
 
     </footer>
-    <script>
-        let cartButton = document.querySelectorAll(".cartBtn");
-
-        let count = '0';
-        function upadate() {
-            // console.log(count);
-            document.getElementById("myCart").innerHTML = count;
-        }
-        Array.from(cartButton).forEach((btn) => {
-            btn.addEventListener("click", function (e) {
-                count++
-                upadate()
-            })
-        });
-    </script>
     <script src="script.js"></script>
 </body>
 
