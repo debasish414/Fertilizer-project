@@ -363,7 +363,7 @@ footer {
 /* *********** Service Section **************** */
 
 .serviceContainer {
-    background-color: #66ffa1;
+    background-color: #dfd9d9;
     /* margin-bottom: -10px; */
 }
 
@@ -408,7 +408,7 @@ footer {
     grid-template-columns: auto auto auto auto;
     align-items: center;
     grid-gap: 27px;
-    background-color: #66ffa1;
+    background-color: #dfd9d9;
     padding: 10px;
 }
 
