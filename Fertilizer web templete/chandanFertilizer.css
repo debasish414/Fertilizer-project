@@ -506,7 +506,17 @@ footer {
     padding: 0px 10px;
     border-radius: 10px;
 }
-
+.rating{
+    display: flex;
+    font-size: 1.5rem;
+    padding: 15px 10px;
+}
+.star{
+    margin-left: 8px;
+}
+.star-u{
+    color: #ffb600;
+}
 
 .btn {
     width: 100%;
