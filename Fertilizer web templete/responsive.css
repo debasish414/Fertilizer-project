@@ -238,7 +238,11 @@
 }
 
 /* *********** About Section **************** */
-
+@media only screen and (max-width: 1080px){
+    .rating{
+        font-size: 1rem;
+    }
+}
 @media only screen and (max-width: 900px) {
     .aboutSection {
         grid-template-columns: auto;
