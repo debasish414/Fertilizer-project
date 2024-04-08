@@ -1,5 +1,6 @@
-const star = document.querySelectorAll(".star")
+/* ****************   About section   **************** */
 
+const star = document.querySelectorAll(".star")
 let selectrdStar = -1;
 star.forEach((item, index) => {
     // console.log(item);
@@ -37,3 +38,19 @@ function handlemouseleave(e) {
     // console.log(e.target.dataset.rating);
     handleUpdate(selectrdStar)
 };
+
+/* ****************   Product section   **************** */
+
+let cartButton = document.querySelectorAll(".cartBtn");
+
+        let count = '0';
+        function upadate() {
+            // console.log(count);
+            document.getElementById("myCart").innerHTML = count;
+        }
+        Array.from(cartButton).forEach((btn) => {
+            btn.addEventListener("click", function (e) {
+                count++
+                upadate()
+            })
+        });
